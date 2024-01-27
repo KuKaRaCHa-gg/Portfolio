@@ -1,0 +1,29 @@
+/* Mode clair par défaut */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Mode sombre si préféré par l'utilisateur */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+
+@keyframes monAnimation {
+    0% { background-color: red; }
+    100% { background-color: yellow; }
+}
+
+.monElement {
+    animation-name: monAnimation;
+    animation-duration: 4s;
+}
+
+
+button:hover {
+    background-color: blue;
+}
