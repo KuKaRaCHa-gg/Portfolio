@@ -12,7 +12,6 @@ body {
     }
 }
 
-
 @keyframes monAnimation {
     0% { background-color: red; }
     100% { background-color: yellow; }
@@ -23,7 +22,18 @@ body {
     animation-duration: 4s;
 }
 
-
 button:hover {
     background-color: blue;
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.marquee {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
 }

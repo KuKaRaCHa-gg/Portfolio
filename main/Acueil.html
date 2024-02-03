@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Mode clair par défaut */
+        body {
+            background-color: white;
+            color: black;
+        }
+
+        /* Mode sombre si préféré par l'utilisateur */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: black;
+                color: white;
+            }
+        }
+
+        @keyframes monAnimation {
+            0% { background-color: red; }
+            100% { background-color: yellow; }
+        }
+
+        .monElement {
+            animation-name: monAnimation;
+            animation-duration: 4s;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+
+        @keyframes marquee {
+            0%   { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .marquee {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -15,13 +56,24 @@
     <!-- Contenu principal -->
     <main>
         <!-- Ici, vous pouvez ajouter votre contenu -->
+        <h2>Mon Portfolio</h2>
+        <div class="marquee">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quasi.</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quasi.
+        </p>
     </main>
 
     <!-- Footer -->
     <footer>
         <p>© 2024 Portfolio Daniil Minevich</p>
+        <a href="mailto:example@example.com">example@example.com</a>
+        <a href="https://www.linkedin.com/in/daniil-minevich/">LinkedIn</a>
+        <a href="https://github.com/daniil-minevich">GitHub</a>
+        <a href="https://www.instagram.com/daniil_minevich/">Instagram</a>
+        <a href="https://twitter.com/daniil_minevich">Twitter</a>
+        <a href="https://www.facebook.com/daniil.minevich">Facebook</a>
+        <a href="https://www.youtube.com/daniil.minevich">Youtube</a>
     </footer>
-
     <script src="scripts.js"></script>
 </body>
 </html>
