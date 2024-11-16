@@ -4,7 +4,10 @@ This repository contains the source code, mockups, and progress for building my 
 
 ## 📂 Repository Content
 
-- **`main/`**: Directory containing the main source files of the portfolio.
+- **`index.html`**: Main HTML file for the portfolio structure.
+- **`styles.css`**: Styling file for the website's design.
+- **`scripts.js`**: JavaScript file for interactivity and animations.
+- **`send_email.php`**: Backend script for handling the contact form.
 - **`Maquette rapide.png`**: Quick mockup of the initial portfolio design for reference.
 - **`.gitattributes`**: Configuration file for text file normalization.
 - **`README.md`**: Documentation for this repository.
@@ -12,29 +15,25 @@ This repository contains the source code, mockups, and progress for building my 
 ## ✨ Overview
 
 - **Purpose**: Showcase my skills, projects, and experiences as a developer.
-- **Design**: Focused on simplicity, clarity, and responsiveness.
+- **Design**: Retro-inspired, focused on simplicity, clarity, and responsiveness.
 - **Development**: Tracks the step-by-step evolution of the portfolio.
 
 ## 🚀 Usage
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KuKaRaCHa-gg/portfolio.git
-Navigate to the main folder and open the HTML file in a browser to preview the portfolio.
+   git clone https://github.com/KuKaRaCHa-gg/Portfolio.git
+Navigate to the project folder:
+cd Portfolio
+If you are using a local server (e.g., XAMPP), place the files in your htdocs directory.
+Open index.html in a browser to preview the portfolio or access it via your local server (e.g., http://localhost/Portfolio).
 🛠️ Technologies
-HTML/CSS: Structure and styling of the website.
-Design Tools: Basic wireframes/mockups for layout planning.
+HTML/CSS: For the structure and styling of the website.
+JavaScript: For animations and interactivity.
+PHP: For the backend of the contact form.
+Design Tools: Used to create wireframes and mockups for layout planning.
 📧 Contact
 For inquiries or collaboration:
 
 GitHub: KuKaRaCHa-gg
-Email: your-email@example.com
 ✨ This portfolio is an evolving project aimed at refining both design and functionality.
-
-
-### Changes and Improvements:
-1. Simplified the explanation while keeping it professional and concise.
-2. Highlighted the key purpose and structure of the repository.
-3. Added clear steps for using the repository.
-
-N'hésite pas à me dire si tu veux encore des ajustements ! 😊
