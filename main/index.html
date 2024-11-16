@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Daniil Minevich, développeur full stack. Découvrez mes projets, compétences et contactez-moi via mes réseaux sociaux.">
+    <meta name="author" content="Daniil Minevich">
+    <meta name="keywords" content="Portfolio, Daniil Minevich, développeur full stack, projets, compétences, contact">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio de Daniil Minevich</title>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Menu principal">
+            <ul class="nav-list">
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#langues">Langues</a></li>
+                <li><a href="#interets">Centres d'intérêts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- À Propos -->
+        <section id="apropos">
+            <div class="container">
+                <div class="profile">
+                    <img src="ton_image_profil.jpg" alt="Photo de Daniil Minevich" class="profile-img">
+                    <h1>Bienvenue, je suis <span class="highlight">Daniil Minevich</span></h1>
+                    <h2>Développeur Full Stack - 19 Ans</h2>
+                    <p>Je suis un développeur passionné par la création de solutions innovantes en développement logiciel et web. Actuellement étudiant en BUT Informatique.</p>
+                    <ul class="contact-info">
+                        <li>📞 06 59 35 74 52</li>
+                        <li>📧 <a href="mailto:daniil.minevich2005@gmail.com">daniil.minevich2005@gmail.com</a></li>
+                        <li>🏠 8 impasse Ronsard, Bonchamp-lès-Laval</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section id="competences">
+            <h2>Compétences</h2>
+            <div class="competences-grid">
+                <div class="competence-box">
+                    <h3>Langages de programmation</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Javascript</li>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+                <div class="competence-box">
+                    <h3>Base de données</h3>
+                    <ul>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="competence-box">
+                    <h3>Langages de description</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section id="projets">
+            <h2>Projets académiques et personnels</h2>
+            <div class="project-card">
+                <h3>Projet de base de données pour un musée</h3>
+                <p>Modélisation et création d'une base de données complète pour un site de musée.</p>
+            </div>
+            <div class="project-card">
+                <h3>Application FXML pour la gestion d’une base de données</h3>
+                <p>Application permettant de gérer des utilisateurs et des données avec une interface FXML.</p>
+            </div>
+            <div class="project-card">
+                <h3>Bot Discord</h3>
+                <p>Création d’un bot Discord pour automatiser certaines tâches et gérer des communautés en ligne.</p>
+            </div>
+        </section>
+
+        <!-- Expérience -->
+        <section id="experience">
+            <h2>Expérience professionnelle</h2>
+            <div class="experience-item">
+                <h3>Stage développeur - Entreprise XYZ</h3>
+                <p>Développement d'applications internes pour la gestion des stocks et automatisation des processus.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Freelance - Développement de sites web</h3>
+                <p>Création de sites web vitrines pour des clients locaux et optimisation de leur SEO.</p>
+            </div>
+        </section>
+
+        <!-- Formation -->
+        <section id="formation">
+            <h2>Formation académique</h2>
+            <div class="formation-item">
+                <h3>BUT Informatique</h3>
+                <p>Université Laval, 2021 - Présent</p>
+            </div>
+            <div class="formation-item">
+                <h3>Baccalauréat Scientifique</h3>
+                <p>Lycée Général et Technologique, 2021</p>
+            </div>
+        </section>
+
+        <!-- Langues -->
+        <section id="langues">
+            <h2>Langues</h2>
+            <ul>
+                <li>Français - Langue maternelle</li>
+                <li>Anglais - Niveau avancé (C1)</li>
+                <li>Russe - Niveau intermédiaire (B2)</li>
+            </ul>
+        </section>
+
+        <!-- Centres d'intérêts -->
+        <section id="interets">
+            <h2>Centres d'intérêts</h2>
+            <ul>
+                <li>Développement logiciel</li>
+                <li>Jeux vidéo</li>
+                <li>Modélisation 3D</li>
+                <li>Randonnée</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="envoyer_email.php" method="POST">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Daniil Minevich - Tous droits réservés</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/daniil-minevich" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/daniil-minevich" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
